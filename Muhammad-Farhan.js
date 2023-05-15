@@ -1,5 +1,9 @@
-function fullName(name, nim) {
-    console.log("Haiiiiiiii....... ", name, nim);
+function datadiri(name, nim) {
+    const newobject = {
+        fullname: name,
+        nim_mahasiswa: nim,
+    }
+    console.log("Haiiiiiiii....... ", (newobject));
 }
 
-fullName('Muhammad Farhan', 'V3922033');
+datadiri('Muhammad Farhan', 'V3922033');
