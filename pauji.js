@@ -1,9 +1,9 @@
 function fullName(name, nim) {
-    var objek = {
+    let objek = {
         NAMA: name,
-        NIM: nim
-    };
+        NIM: nim,
+    }
     console.log(objek);
 }
 
-fullName("Fauzi Ihan Anshori", "123456789");
+fullName("Fauzi Ihan Anshori", "V3922021");
