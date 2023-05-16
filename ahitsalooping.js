@@ -8,3 +8,5 @@ for(let i = 1; i < dataArray.length; i++){
 console.log("index ---- ", i)
 console.log(dataArray[i])
 }
+
+//try lopping
