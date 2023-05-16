@@ -9,4 +9,4 @@ console.log("index ---- ", i)
 console.log(dataArray[i])
 }
 
-//try lopping
+//try looping
