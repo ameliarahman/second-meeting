@@ -60,4 +60,20 @@ function fullName(biodata){
     console.log(biodata.nim)
 
 }
+
 fullName({name:"Laila Ainur Rahma", nim: "V3922026"});
+
+function fullName2(nama,nim){
+    const bio = {
+        Nama: nama,
+        Nim: nim
+    }
+
+    console.log(bio.Nama);
+    console.log(bio.Nim);
+
+}
+
+
+fullName2("Laila Ainur Rahma", "V3922026");
+
