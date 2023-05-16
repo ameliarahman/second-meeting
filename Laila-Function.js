@@ -94,7 +94,7 @@ function loop(dataArray){
 
 }
 
-  
+
 loop([1, 2, 3, "Amelia", {
     name: "Amelia",
     favoriteNumber: 1
