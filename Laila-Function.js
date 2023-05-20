@@ -63,39 +63,36 @@
 
 // fullName({name:"Laila Ainur Rahma", nim: "V3922026"});
 
-// function fullName2(nama,nim){
-//     const bio = {
-//         Nama: nama,
-//         Nim: nim
-//     }
+//Tugas 1 - function dengan 2 parameter
 
-//     console.log(bio.Nama);
-//     console.log(bio.Nim);
+function fullName2(nama,nim){
+    const bio = {
+        nama,
+        nim
+    }
 
-// }
+    console.log(bio);
+}
 
+fullName2("Laila Ainur Rahma", "V3922026");
 
-// fullName2("Laila Ainur Rahma", "V3922026");
-
-// Looping -> kale datanya number bikin console this is number, kalau datanya string bikin console this is string, dan object juga demikian
+//  Tugas 2 - function dengan loop
 
 function loop(dataArray){
     for (let i = 0; i < dataArray.length; i++) {
         const data = dataArray[i];
         
         if (typeof data === "number") {
-          console.log("This is a number");
+          console.log(data + " This is a number");
         } else if (typeof data === "string") {
-          console.log("This is a string");
+          console.log(data + " This is a string");
         } else if (typeof data === "object") {
-          console.log("This is an object");
+          console.log(data + " This is an object");
         }
       }
-
 }
 
-
-loop([1, 2, 3, "Amelia", {
-    name: "Amelia",
-    favoriteNumber: 1
-  }]);
+loop([1, 2, 3, "Pemrograman Web", {
+  "matkul": "Pemweb",
+  "kampus": "UNS"
+}]);
