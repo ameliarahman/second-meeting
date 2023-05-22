@@ -3,10 +3,10 @@ function latihan(newArray) {
     for (var i = 0; i < newArray.length; i++) {
       if (typeof newArray[i] === 'string') {
       
-    console.log("This is string");
+    return("This is string");
     }
       else if (typeof newArray[i] === 'number') {
-    console.log("This is number");
+    return("This is number");
     }
     }
     }
