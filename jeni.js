@@ -7,4 +7,3 @@ function fullName(name, nim) {
   }
   
 fullName("Jeni Fla", "V3922024");
-  
