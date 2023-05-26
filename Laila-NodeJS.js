@@ -31,3 +31,12 @@ const newloop = loop([1, 2, 3, "Pemrograman Web", {
 }]);
 
 console.log(newloop);
+
+function times(a,b){
+  return a*b;
+}
+
+module.exports.full = fullName2
+module.exports.loop = loop
+module.exports.newloop = newloop
+module.exports.times = times
